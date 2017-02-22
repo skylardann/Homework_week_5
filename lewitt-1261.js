@@ -15,14 +15,12 @@ function setup() {
     stroke(255);
 
     ellipse(width / 2, height / 2, x, y);
+    
 
     x = x + 70
 
     y = y + 70
 
   }
-}
-
-function draw() {
-
+  filter(BLUR,10);
 }
